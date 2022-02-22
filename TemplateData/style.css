@@ -50,13 +50,13 @@ body {
     height: 24px;
     margin: 10px 20px 20px 10px;
     text-align: left;
-    border: 2px solid red;
+    border: 2px solid black;
     padding: 2px;
 }
 #unity-progress-bar-full {
     width: 0%;
     height: 100%;
-    background: orange;
+    background: blue;
 }
 .light #unity-progress-bar-empty {
     border-color: black;
