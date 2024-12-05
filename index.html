@@ -32,17 +32,6 @@
     </div>
     <div id="unity-fullscreen-button" style="display: none;"></div>
     <script>
-		function FixInputOnSubmit() {
-			document.getElementById("fixInput").blur();
-			event.preventDefault();
-		}
-	</script>
-    <div>
-		<form onsubmit="FixInputOnSubmit()" autocomplete="off" style="width: 0px; height: 0px; position: absolute; top: -9999px;">
-			<input type="text" id="fixInput" oninput="gameInstance.Module.ccall('FixInputUpdate', null)" onblur="gameInstance.Module.ccall('FixInputOnBlur', null)" style="font-size: 42px;">
-		</form>
-	</div>
-    <script>
       const hideFullScreenButton = "true";
       const buildUrl = "Build";
       const loaderUrl = buildUrl + "/Webgl.loader.js";
